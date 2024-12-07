@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication2</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication2.Controllers.v1.CitiesController.GetCities">
+            <summary>
+            to get list of cities (including city name and city id ) form cities table
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication2.Migrations.Initital">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication2.Migrations.Initital.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication2.Migrations.Initital.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication2.Migrations.Initital.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:WebApplication2.Migrations.ValidationsAdded">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication2.Migrations.ValidationsAdded.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication2.Migrations.ValidationsAdded.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication2.Migrations.ValidationsAdded.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
