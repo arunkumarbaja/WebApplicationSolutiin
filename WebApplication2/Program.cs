@@ -17,6 +17,7 @@ builder.Services.AddControllers(options =>
 }).AddXmlSerializerFormatters();
 
 
+// Configuring Db context
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultString"));
